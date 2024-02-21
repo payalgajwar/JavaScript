@@ -1,72 +1,85 @@
-// function sentence() {
-//   console.log("World");
+// const int = 1.766584958675746364;
+
+// int;
+// const intSecond = int.toFixed(2);
+// intSecond;
+// console.log(intSecond);
+// decimal;
+
+// console.log(toString(int));
+
+// console.log("Start JS");
+
+// array = [4, 5, 7, 8];
+
+// const duplicates = array.filter(
+//   (ele, index, array) => array.indexOf(ele) !== index
+// );
+// console.log(array);
+
+// const array = [
+//   {
+//     object1: "1",
+//     object2: "a",
+//     array: groupArray(),
+//   },
+//   {
+//     object1: "1",
+//     object2: "b",
+//   },
+//   {
+//     object1: "3",
+//     object2: "c",
+//   },
+//   {
+//     object1: "4",
+//     object2: "d",
+//   },
+// ];
+
+// const groupArray = function x() {
+//   var a = 19;
+//   console.log(a);
+// };
+// Object.groupBy(array.object1);
+// const duplicates = array.filter(
+// (ele, index, array) => array.indexOf(ele) !== index
+// );
+// console.log(groupArray);
+
+// array = [4, 5, 7, 8];
+
+// const duplicates = arry => array.filter((ele, index) => array.indexOf(ele) !== index);
+// const duplicateElementa = duplicates(array);
+
+// indexOf() method
+
+// console.log(duplicateElementa);
+
+// console.log(a);
+// dummy();
+// var a =10;
+// function dummy() {
+//   console.log("string");
 // }
-// sentence();
 
-// function no(x) {
-//   console.log(x);
-// }
-// no(6);
+// this === window;
 
-// prompt();
-// const value = prompt("hi");
-// console.log(value);
+const people = [
+  { name: "a75", item1: false, item2: false },
+  { name: "z32", item1: true, item2: false },
+  { name: "e77", item1: false, item2: false },
+];
 
-// function num(value) {
-//   console.log(value);
-// }
-// num(value);
+const array = people.sort(function x(a, b) {
+  return a.name < b.name ? -1 : 1;
+});
 
-// function numbers(a, b) {
-//   //   const sum = a + b;
-//   console.log(a + b);
+// console.log(array);
+// const array = [2, 5, 8, 3];
+// function even(x) {
+// return x.toString(2);
 // }
 
-// numbers(2, 6);
-
-// function sumOfTwoNumbers(a, b) {
-// return a + b;
-// }
-// console.log(sumOfTwoNumbers(1, 7));
-
-// const array = [1, 4, 3, 9];
-
-// function maxNumber() {
-// const arr = array.sort();
-// console.log(arr);
-// const arar = Math.max(...arr);
-// console.log(arar);
-// }
-
-// console.log(maxNumber());
-
-// function maxNumber(array) {
-// const arr = array.sort();
-// console.log(arr);
-// return Math.max(...arr);
-// }
-// console.log(maxNumber(array));
-
-// const x = "sggyuaj";
-// function isPalindrome(str) {
-// const palindromeString = str.split(”).reverse().join(”);
-// console.log(palindromeString);
-// return str === str.split().reverse().join();
-// }
-// console.log(isPalindrome(x));
-function isPalindrome(str) {
-  let rev = str.split("").reverse().join("");
-
-  if (rev == str) {
-    return true;
-  }
-  return false;
-}
-
-let str1 = "racecar";
-let str2 = "nitin";
-let str3 = "Rama";
-
-console.log(isPalindrome(str1));
-console.log(isPalindrome(str2));
-console.log(isPalindrome(str3));
+const arr = array.map(even);
+console.log(arr);

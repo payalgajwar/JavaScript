@@ -5,7 +5,7 @@ const obj1 = {
   Address: "guna",
   NewFunction: x,
 };
-// obj1.NewFunction(); //In this case will assign fn to obj then call
+obj1.NewFunction(); //In this case will assign fn to obj then call
 // or
 // const newObj1 = x.bind(obj1);   // In this case can directly pass obj(with its value) in function without initialising function inside obj
 // newObj1();
@@ -90,7 +90,7 @@ function x() {
 //   }
 
 //   for (let i = 0; i < arr2.length; i++) {
-//     sum += arr2[i];
+//     sum += arr2[i]; or sum = sum + arr2[i]
 //   }
 //   return sum;
 // }

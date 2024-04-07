@@ -1,4 +1,5 @@
 const array = [2, 7, 9, 5];
+console.log(array);
 // const arr = array.sort((a, b) => a - b); //sorting in ascending order
 // const arrLength = arr.length; //get length of array
 // console.log(arrLength);

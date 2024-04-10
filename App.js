@@ -39,15 +39,15 @@ console.log(array);
 // const arrv= arr[0]
 // console.log(arrvalue);
 
-// Array.prototype.max = function () {
-//   return Math.max.apply(null, this);
-// };
-// console.log(`Max value is: ${arr.max()}`);
+Array.prototype.max = function () {
+  return Math.max.apply(null, this);
+};
+console.log(`Max value is: ${arr.max()}`);
 
-// const maxValue = arr.reduce((a, b) => {
-//   return Math.max(a, b);
-// });
-// console.log(maxValue);
+const maxValue = arr.reduce((a, b) => {
+  return Math.max(a, b);
+});
+console.log(maxValue);
 
 // function arrValue() {
 //   let max = arr[0];
